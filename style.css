@@ -1,0 +1,96 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url('bgphoto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+/* Header */
+header {
+    background-color: #0d6efd;
+    color: white;
+    padding: px;
+    text-align: center;
+}
+
+nav a {
+    background-color: white;
+      color: #1abc9c;
+      padding: 8px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+      position: relative;
+  top: 30px;
+}
+
+/* Produk Section */
+.produk-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 40px;
+    gap: 20px;
+}
+
+.produk {
+    background: white;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.produk:hover {
+    transform: scale(1.05);
+}
+
+.produk img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.produk h3 {
+    margin: 15px 0 10px;
+}
+
+.produk p {
+    color: #28a745;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.produk button {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.produk button:hover {
+    background-color: #084298;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ddd;
+    margin-top: 40px;
+}
